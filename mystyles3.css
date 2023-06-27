@@ -1,0 +1,93 @@
+.container {
+    margin: top 0;
+    display: grid;
+    grid-template-columns: 720px 721px;
+    grid-template-rows: 820px 821px;
+ }
+
+       .header_menu {
+        display: flex;
+        align-items: flex-start;
+    }
+    .header_menu img {
+        height: 57px;
+        width: 39.46px;
+        margin-top: 29px;
+        margin-left: 50px;
+    }
+    
+    .header_menu p {
+        height: 24px;
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 23px;
+        margin-left: 10px;
+    }
+    
+    nav {
+        display: block;
+        margin-top: 23px;
+        margin-left: 90px;
+         }
+
+    a {
+        display: inline-block;
+        margin-right: 70px;
+        height: 24px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+                }
+      
+    .item1 {
+        position: relative;
+        height: 24px;
+        width: 86px;
+        color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 163px;
+        margin-left: 210px;
+        text-transform: uppercase;
+    }
+
+    .item2 {
+        position: relative;
+        height: 120px;
+        width: 425px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 57px;
+        font-weight: 700;
+        margin-top: 6px;
+        margin-left: 210px;
+        text-transform: uppercase;
+    }
+
+    .item3 {
+        position: relative;
+        height: 48px;
+        width: 250px;
+        color: grey;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 70px;
+        margin-left: 210px;
+    }
+
+    button {
+        width: 213px;
+        height: 55px;
+        border: none;
+        margin-top: 100px;
+        margin-left: 210px;
+        }
+
+    @media screen and (max-width:1880px) {
+        .container {
+            grid-template-columns: repeat(auto, auto);
+        }
+    }
