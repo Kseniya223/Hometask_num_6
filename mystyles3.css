@@ -1,47 +1,52 @@
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+.header_menu img[logo] {
+   width: 39.46px;
+   margin-top: 29px;
+   margin-left: 50px;
+   }
+.header_menu button {
+    width: 57px;
+    margin-top: 21px;
+    margin-left: 20px;
+    border: none;
+    background: none;
+
+}
+.header_menu p {
+    height: 24px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 23px;
+    margin-left: 10px;
+    }
+    
+nav {
+    display: block;
+    margin-top: 23px;
+    margin-left: 90px;
+    }
+
+a {
+    display: inline-block;
+    height: 24px;
+    margin-right: 110px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
 .container {
-    margin: top 0;
-    display: grid;
-    grid-template-columns: 720px 721px;
-    grid-template-rows: 820px 821px;
- }
+        display: grid;
+        grid-template-columns: 720px 721px;
+        grid-template-rows: 750px 821px;
+      }
 
-       .header_menu {
-        display: flex;
-        align-items: flex-start;
-    }
-    .header_menu img {
-        height: 57px;
-        width: 39.46px;
-        margin-top: 29px;
-        margin-left: 50px;
-    }
-    
-    .header_menu p {
-        height: 24px;
-        color: grey;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        margin-top: 23px;
-        margin-left: 10px;
-    }
-    
-    nav {
-        display: block;
-        margin-top: 23px;
-        margin-left: 90px;
-         }
-
-    a {
-        display: inline-block;
-        margin-right: 70px;
-        height: 24px;
-        color: black;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        text-transform: uppercase;
-                }
-      
-    .item1 {
+       .item1 {
         position: relative;
         height: 24px;
         width: 86px;
@@ -52,9 +57,9 @@
         margin-top: 163px;
         margin-left: 210px;
         text-transform: uppercase;
-    }
-
-    .item2 {
+        }
+        
+        .item2 {
         position: relative;
         height: 120px;
         width: 425px;
@@ -65,9 +70,9 @@
         margin-top: 6px;
         margin-left: 210px;
         text-transform: uppercase;
-    }
-
-    .item3 {
+        }
+        
+        .item3 {
         position: relative;
         height: 48px;
         width: 250px;
@@ -76,9 +81,9 @@
         font-size: 16px;
         margin-top: 70px;
         margin-left: 210px;
-    }
-
-    button {
+        }
+        
+        button {
         width: 213px;
         height: 55px;
         border: none;
@@ -86,8 +91,9 @@
         margin-left: 210px;
         }
 
-    @media screen and (max-width:1880px) {
-        .container {
-            grid-template-columns: repeat(auto, auto);
-        }
-    }
+@media screen and (max-width: 2210px) {
+.container {
+grid-template-columns: repeat(auto, 1fr);
+grid-template-rows: repeat(auto, 50vh);
+}
+}
