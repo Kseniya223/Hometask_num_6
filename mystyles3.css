@@ -1,9 +1,9 @@
 .header_menu {
     display: flex;
     align-items: center;
+    width: 1440px;
 }
 .header_menu img[logo] {
-   width: 39.46px;
    margin-top: 29px;
    margin-left: 50px;
    }
@@ -41,10 +41,12 @@ a {
 }
 
 .container {
-        display: grid;
-        grid-template-columns: 720px 721px;
-        grid-template-rows: 750px 821px;
-      }
+    width: 1440px;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+             }
 
        .item1 {
         position: relative;
@@ -83,7 +85,7 @@ a {
         margin-left: 210px;
         }
         
-        button {
+        .block_one button {
         width: 213px;
         height: 55px;
         border: none;
@@ -91,9 +93,51 @@ a {
         margin-left: 210px;
         }
 
-@media screen and (max-width: 2210px) {
-.container {
-grid-template-columns: repeat(auto, 1fr);
-grid-template-rows: repeat(auto, 50vh);
-}
-}
+        .item4 {
+            position: relative;
+            height: 24px;
+            width: 42px;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 150px;
+            margin-left: 50px;
+            text-transform: uppercase;
+            }
+            
+            .item5 {
+            position: relative;
+            height: 85px;
+            width: 400px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 38px;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-left: 50px;
+            text-transform: uppercase;
+            }
+            
+            .item6 {
+            position: relative;
+            height: 70px;
+            width: 350px;
+            color: grey;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin-top: 40px;
+            margin-left: 50px;
+            }
+            
+            .block_four button {
+            width: 213px;
+            border: none;
+            margin-top: 40px;
+            margin-left: 50px;
+            }
+
+
+         
+
+ 
